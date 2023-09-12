@@ -1,0 +1,7 @@
+Evaluation arguments:
+Namespace(all_candidates=1, all_points=1, backward_dist_weight=0.0, batch_size=1, dataset_name='FluidFlow', log_fname='mhd.txt', metrics_fname='metrics_results_mhd.npz', mode='test', nb_neigh_smooth_flow=32, nb_points=2048, nb_points_chunk=2048, nb_workers=0, path2ckpt='./../experiments/GOT_extractor_1300_examples/model_e100.tar', res_folder='pc_res', save_metrics=1, save_pc_res=0, smooth_flow_loss_weight=0.0, target_recon_loss_weight=1.0, test_time_num_step=1000, test_time_update_rate=0.01, test_time_verbose=0, use_chamfer_cuda=1, use_smooth_flow=1, use_test_time_refinement=1)
+Seed: 42
+Epsilon: 0.0300, Power: 0.5964
+EPE: 0.0048, NEPE: 0.0387, ACC3DS: 0.9855, ACC3DR: 0.9864, Outlier: 0.0148, Dataset Size: 256
+Evaluation duration: 1.20 minutes (time per example: 0.28 seconds)
+Finished Evaluation.
