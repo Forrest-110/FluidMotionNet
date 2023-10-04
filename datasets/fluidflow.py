@@ -139,22 +139,7 @@ class FluidFlowDataset_GOTversion(Dataset):
                 pos2 = data['pos2'].astype('float32')
                 flow = data['flow'].astype('float32')
             
-            # if 's025' in fn:
-            #     pos1 = pos1 * 8.
-            #     pos2 = pos2 * 8.
-            #     flow = flow * 8.
-            # elif 's050' in fn:
-            #     pos1 = pos1 * 4.
-            #     pos2 = pos2 * 4.
-            #     flow = flow * 4.
-            # elif 's100' in fn:
-            #     pos1 = pos1 * 2.
-            #     pos2 = pos2 * 2.
-            #     flow = flow * 2.
-            # elif 'beltrami' in fn :
-            #     pos1 = (pos1 + 1.) * np.pi
-            #     pos2 = (pos2 + 1.) * np.pi
-            #     flow = flow * np.pi
+            
 
             if len(self.cache) < self.cache_size:
                 # self.cache[index] = (pos1, pos2, color1, color2, flow)
@@ -209,19 +194,7 @@ class FluidFlowDataset_GOTversion(Dataset):
         filenames = glob.glob(os.path.join(self.root_dir, pattern))
         filenames = [d for d in filenames if 'TRAIN_C_0140_left_0006-0' not in d]
 
-        # # Train / val / test split
-        # if self.mode == "train" or self.mode == "val":
-        #     ind_val = set(np.linspace(0, len(filenames) - 1, 2000).astype("int"))
-        #     ind_all = set(np.arange(len(filenames)).astype("int"))
-        #     ind_train = ind_all - ind_val
-        #     assert (
-        #         len(ind_train.intersection(ind_val)) == 0
-        #     ), "Train / Val not split properly"
-        #     filenames = np.sort(filenames)
-        #     if self.mode == "train":
-        #         filenames = filenames[list(ind_train)]
-        #     elif self.mode == "val":
-        #         filenames = filenames[list(ind_val)]
+        
 
         filenames = np.sort(filenames)
 

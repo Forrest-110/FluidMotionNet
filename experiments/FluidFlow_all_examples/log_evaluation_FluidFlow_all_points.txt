@@ -1,7 +1,0 @@
-Evaluation arguments:
-Namespace(all_candidates=1, all_points=1, backward_dist_weight=1.0, batch_size=1, dataset_name='FluidFlow', log_fname='log_evaluation_FluidFlow_all_points.txt', metrics_fname='metrics_results.npz', mode='test', nb_neigh_smooth_flow=16, nb_points=2048, nb_points_chunk=2048, nb_workers=0, path2ckpt='./../experiments/FluidFlow_all_examples/model_e100.tar', res_folder='pc_res', save_metrics=0, save_pc_res=0, smooth_flow_loss_weight=1.0, target_recon_loss_weight=1.0, test_time_num_step=1000, test_time_update_rate=0.1, test_time_verbose=0, use_chamfer_cuda=1, use_smooth_flow=1, use_test_time_refinement=1)
-Seed: 42
-Epsilon: 0.0300, Power: 1.0000
-EPE: 0.0587, ACC3DS: 0.5750, ACC3DR: 0.8183, Outlier: 0.5970, Dataset Size: 1355
-Evaluation duration: 10.83 minutes (time per example: 0.48 seconds)
-Finished Evaluation.
