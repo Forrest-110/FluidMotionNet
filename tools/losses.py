@@ -4,7 +4,7 @@ import sys
 import torch
 import numpy as np
 
-import torchsort
+# import torchsort
 from knn_cuda import KNN
 from models.lattice import Lattice
 # add path

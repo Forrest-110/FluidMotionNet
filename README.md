@@ -11,7 +11,7 @@ Clone this repository:
   cd DECROB/
 ```
 
-Install [Pytorch](https://pytorch.org/) and other required packages:
+Install [Pytorch](https://pytorch.org/) ,[KNN_cuda](https://github.com/unlimblue/KNN_CUDA), and other required packages:
 
 ```
   pip install tensorboard==2.4.1 --no-cache-dir
@@ -19,6 +19,7 @@ Install [Pytorch](https://pytorch.org/) and other required packages:
   pip install scipy
   pip install imageio
   pip install torch-scatter==2.1.1 -f https://pytorch-geometric.com/whl/torch-1.12.0+cu113.html
+  pip install Ninja
 ```
 
 
