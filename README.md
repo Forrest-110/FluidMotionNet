@@ -1,5 +1,5 @@
-# DEPT
-Temporary codes for Test-time Self Supervision for "Data Efficient Particle Tracking in Turbulent Flow using Splat-based Divergence Regularization"
+# DECROB
+Code for Test-time Self Supervision for "*Test-time Self Supervision for **D**ata **E**fficient and **C**ross-domain **Rob**ust Particle Tracking in Turbulent Flow*"
 
 # Installation
 The code has been tested with Python 3.8.10, PyTorch 1.12.0, CUDA 11.3, and cuDNN 8.3.0 on Ubuntu 22.04.
@@ -7,8 +7,8 @@ The code has been tested with Python 3.8.10, PyTorch 1.12.0, CUDA 11.3, and cuDN
 Clone this repository:
 
 ```
-  git clone https://github.com/Forrest-110/DEPT.git 
-  cd DEPT/
+  git clone https://github.com/Forrest-110/DECROB.git 
+  cd DECROB/
 ```
 
 Install [Pytorch](https://pytorch.org/) and other required packages:
