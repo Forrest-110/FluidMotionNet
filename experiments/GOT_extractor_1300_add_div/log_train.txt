@@ -1,0 +1,3 @@
+Training arguments:Namespace(add_model_suff=True, backward_dist_weight=0.0, batch_size_train=4, batch_size_val=10, corr_conf_loss_weight=0.1, dataset_name='FluidFlow', div_flow_loss_weight=0.01, learning_rate=0.001, linear_corr_conf=0, log_dir='GOT_extractor_1300_add_div', log_fname='log_train.txt', nb_epochs=100, nb_iter=1, nb_neigh_cross_recon=64, nb_neigh_smooth_flow=32, nb_points=2048, nb_train_examples=1300, nb_val_examples=1, nb_workers=8, same_val_test_kitti=1, save_model_epoch=25, smooth_flow_loss_weight=10.0, use_corr_conf=True, use_div_flow=True, use_smooth_flow=True)
+Seed: 42
+Training epoch 1 out of 100

@@ -1,0 +1,903 @@
+Training arguments:Namespace(add_model_suff=True, backward_dist_weight=0.0, batch_size_train=4, batch_size_val=10, corr_conf_loss_weight=0.1, dataset_name='FluidFlow', div_flow_loss_weight=0.01, learning_rate=0.001, linear_corr_conf=0, log_dir='GOT_extractor_130_GOT_dataset', log_fname='log_train.txt', nb_epochs=300, nb_iter=1, nb_neigh_cross_recon=64, nb_neigh_smooth_flow=32, nb_points=2048, nb_train_examples=130, nb_val_examples=1, nb_workers=8, same_val_test_kitti=1, save_model_epoch=25, smooth_flow_loss_weight=10.0, use_corr_conf=True, use_div_flow=False, use_smooth_flow=True)
+Seed: 42
+Training epoch 1 out of 300
+Training: loss: 12.255142, epe: 2.695
+Validation: loss: 10.591879, epe: 2.334
+Training epoch 2 out of 300
+Training: loss: 11.157562, epe: 2.564
+Validation: loss: 10.057692, epe: 2.147
+Training epoch 3 out of 300
+Training: loss: 10.532357, epe: 2.406
+Validation: loss: 9.519183, epe: 1.987
+Training epoch 4 out of 300
+Training: loss: 9.980692, epe: 2.191
+Validation: loss: 9.232880, epe: 1.795
+Training epoch 5 out of 300
+Training: loss: 9.470501, epe: 1.936
+Validation: loss: 8.461185, epe: 1.530
+Training epoch 6 out of 300
+Training: loss: 8.980446, epe: 1.611
+Validation: loss: 8.011598, epe: 1.252
+Training epoch 7 out of 300
+Training: loss: 8.567916, epe: 1.256
+Validation: loss: 7.320187, epe: 0.963
+Training epoch 8 out of 300
+Training: loss: 8.266036, epe: 0.936
+Validation: loss: 6.793458, epe: 0.796
+Training epoch 9 out of 300
+Training: loss: 7.899309, epe: 0.793
+Validation: loss: 6.305290, epe: 0.749
+Training epoch 10 out of 300
+Training: loss: 7.467951, epe: 0.736
+Validation: loss: 6.025282, epe: 0.730
+Training epoch 11 out of 300
+Training: loss: 7.125721, epe: 0.693
+Validation: loss: 5.755847, epe: 0.672
+Training epoch 12 out of 300
+Training: loss: 6.889622, epe: 0.664
+Validation: loss: 5.696576, epe: 0.655
+Training epoch 13 out of 300
+Training: loss: 6.700657, epe: 0.641
+Validation: loss: 5.444396, epe: 0.623
+Training epoch 14 out of 300
+Training: loss: 6.530587, epe: 0.619
+Validation: loss: 5.217022, epe: 0.602
+Training epoch 15 out of 300
+Training: loss: 6.360632, epe: 0.601
+Validation: loss: 5.194175, epe: 0.595
+Training epoch 16 out of 300
+Training: loss: 6.244714, epe: 0.590
+Validation: loss: 5.027705, epe: 0.585
+Training epoch 17 out of 300
+Training: loss: 6.124141, epe: 0.577
+Validation: loss: 4.975343, epe: 0.569
+Training epoch 18 out of 300
+Training: loss: 6.030580, epe: 0.568
+Validation: loss: 5.011606, epe: 0.571
+Training epoch 19 out of 300
+Training: loss: 5.957595, epe: 0.557
+Validation: loss: 4.883543, epe: 0.569
+Training epoch 20 out of 300
+Training: loss: 5.895225, epe: 0.551
+Validation: loss: 4.869392, epe: 0.555
+Training epoch 21 out of 300
+Training: loss: 5.835914, epe: 0.543
+Validation: loss: 4.863175, epe: 0.558
+Training epoch 22 out of 300
+Training: loss: 5.749778, epe: 0.536
+Validation: loss: 4.745606, epe: 0.539
+Training epoch 23 out of 300
+Training: loss: 5.707354, epe: 0.530
+Validation: loss: 4.737439, epe: 0.540
+Training epoch 24 out of 300
+Training: loss: 5.658769, epe: 0.524
+Validation: loss: 4.745611, epe: 0.538
+Training epoch 25 out of 300
+Training: loss: 5.611064, epe: 0.514
+Validation: loss: 4.553493, epe: 0.505
+Training epoch 26 out of 300
+Training: loss: 5.545693, epe: 0.505
+Validation: loss: 4.539687, epe: 0.508
+Training epoch 27 out of 300
+Training: loss: 5.502528, epe: 0.494
+Validation: loss: 4.428280, epe: 0.473
+Training epoch 28 out of 300
+Training: loss: 5.435418, epe: 0.481
+Validation: loss: 4.383474, epe: 0.463
+Training epoch 29 out of 300
+Training: loss: 5.372538, epe: 0.471
+Validation: loss: 4.249713, epe: 0.438
+Training epoch 30 out of 300
+Training: loss: 5.277046, epe: 0.457
+Validation: loss: 4.133602, epe: 0.430
+Training epoch 31 out of 300
+Training: loss: 5.216650, epe: 0.447
+Validation: loss: 4.001858, epe: 0.404
+Training epoch 32 out of 300
+Training: loss: 5.152359, epe: 0.436
+Validation: loss: 3.870704, epe: 0.380
+Training epoch 33 out of 300
+Training: loss: 5.061036, epe: 0.425
+Validation: loss: 3.789032, epe: 0.372
+Training epoch 34 out of 300
+Training: loss: 4.997242, epe: 0.416
+Validation: loss: 3.809168, epe: 0.374
+Training epoch 35 out of 300
+Training: loss: 4.921499, epe: 0.407
+Validation: loss: 3.787667, epe: 0.361
+Training epoch 36 out of 300
+Training: loss: 4.843321, epe: 0.399
+Validation: loss: 3.644428, epe: 0.339
+Training epoch 37 out of 300
+Training: loss: 4.776095, epe: 0.390
+Validation: loss: 3.579004, epe: 0.330
+Training epoch 38 out of 300
+Training: loss: 4.715983, epe: 0.382
+Validation: loss: 3.561127, epe: 0.325
+Training epoch 39 out of 300
+Training: loss: 4.651363, epe: 0.374
+Validation: loss: 3.485445, epe: 0.317
+Training epoch 40 out of 300
+Training: loss: 4.587115, epe: 0.364
+Validation: loss: 3.447202, epe: 0.302
+Training epoch 41 out of 300
+Training: loss: 4.504324, epe: 0.355
+Validation: loss: 3.288499, epe: 0.289
+Training epoch 42 out of 300
+Training: loss: 4.450116, epe: 0.347
+Validation: loss: 3.262200, epe: 0.283
+Training epoch 43 out of 300
+Training: loss: 4.378848, epe: 0.339
+Validation: loss: 3.186370, epe: 0.264
+Training epoch 44 out of 300
+Training: loss: 4.324555, epe: 0.332
+Validation: loss: 3.106502, epe: 0.264
+Training epoch 45 out of 300
+Training: loss: 4.257245, epe: 0.324
+Validation: loss: 3.065621, epe: 0.251
+Training epoch 46 out of 300
+Training: loss: 4.188774, epe: 0.315
+Validation: loss: 2.973718, epe: 0.239
+Training epoch 47 out of 300
+Training: loss: 4.126462, epe: 0.309
+Validation: loss: 2.930640, epe: 0.232
+Training epoch 48 out of 300
+Training: loss: 4.062373, epe: 0.301
+Validation: loss: 2.896065, epe: 0.228
+Training epoch 49 out of 300
+Training: loss: 3.990683, epe: 0.293
+Validation: loss: 2.785300, epe: 0.214
+Training epoch 50 out of 300
+Training: loss: 3.937573, epe: 0.286
+Validation: loss: 2.777909, epe: 0.214
+Training epoch 51 out of 300
+Training: loss: 3.869971, epe: 0.279
+Validation: loss: 2.635300, epe: 0.199
+Training epoch 52 out of 300
+Training: loss: 3.800169, epe: 0.272
+Validation: loss: 2.529320, epe: 0.188
+Training epoch 53 out of 300
+Training: loss: 3.754943, epe: 0.266
+Validation: loss: 2.500424, epe: 0.185
+Training epoch 54 out of 300
+Training: loss: 3.695808, epe: 0.260
+Validation: loss: 2.425944, epe: 0.178
+Training epoch 55 out of 300
+Training: loss: 3.614871, epe: 0.252
+Validation: loss: 2.350962, epe: 0.167
+Training epoch 56 out of 300
+Training: loss: 3.568577, epe: 0.247
+Validation: loss: 2.296995, epe: 0.163
+Training epoch 57 out of 300
+Training: loss: 3.519810, epe: 0.241
+Validation: loss: 2.328380, epe: 0.161
+Training epoch 58 out of 300
+Training: loss: 3.456953, epe: 0.235
+Validation: loss: 2.244083, epe: 0.159
+Training epoch 59 out of 300
+Training: loss: 3.400400, epe: 0.229
+Validation: loss: 2.163677, epe: 0.148
+Training epoch 60 out of 300
+Training: loss: 3.347872, epe: 0.224
+Validation: loss: 2.134413, epe: 0.146
+Training epoch 61 out of 300
+Training: loss: 3.298947, epe: 0.218
+Validation: loss: 2.067602, epe: 0.137
+Training epoch 62 out of 300
+Training: loss: 3.240920, epe: 0.213
+Validation: loss: 1.986804, epe: 0.129
+Training epoch 63 out of 300
+Training: loss: 3.186644, epe: 0.208
+Validation: loss: 1.963725, epe: 0.128
+Training epoch 64 out of 300
+Training: loss: 3.133469, epe: 0.203
+Validation: loss: 1.914954, epe: 0.123
+Training epoch 65 out of 300
+Training: loss: 3.097713, epe: 0.199
+Validation: loss: 1.859637, epe: 0.116
+Training epoch 66 out of 300
+Training: loss: 3.058330, epe: 0.195
+Validation: loss: 1.831050, epe: 0.113
+Training epoch 67 out of 300
+Training: loss: 3.010011, epe: 0.190
+Validation: loss: 1.780872, epe: 0.108
+Training epoch 68 out of 300
+Training: loss: 2.974916, epe: 0.187
+Validation: loss: 1.755431, epe: 0.105
+Training epoch 69 out of 300
+Training: loss: 2.918452, epe: 0.182
+Validation: loss: 1.696481, epe: 0.101
+Training epoch 70 out of 300
+Training: loss: 2.861223, epe: 0.177
+Validation: loss: 1.700495, epe: 0.100
+Training epoch 71 out of 300
+Training: loss: 2.823836, epe: 0.173
+Validation: loss: 1.611310, epe: 0.094
+Training epoch 72 out of 300
+Training: loss: 2.789469, epe: 0.170
+Validation: loss: 1.564017, epe: 0.089
+Training epoch 73 out of 300
+Training: loss: 2.737980, epe: 0.165
+Validation: loss: 1.510491, epe: 0.085
+Training epoch 74 out of 300
+Training: loss: 2.712707, epe: 0.163
+Validation: loss: 1.510689, epe: 0.085
+Training epoch 75 out of 300
+Training: loss: 2.670743, epe: 0.159
+Validation: loss: 1.460377, epe: 0.080
+Training epoch 76 out of 300
+Training: loss: 2.637080, epe: 0.156
+Validation: loss: 1.440572, epe: 0.079
+Training epoch 77 out of 300
+Training: loss: 2.594129, epe: 0.152
+Validation: loss: 1.405264, epe: 0.076
+Training epoch 78 out of 300
+Training: loss: 2.552061, epe: 0.149
+Validation: loss: 1.391520, epe: 0.074
+Training epoch 79 out of 300
+Training: loss: 2.520295, epe: 0.146
+Validation: loss: 1.349492, epe: 0.071
+Training epoch 80 out of 300
+Training: loss: 2.509787, epe: 0.144
+Validation: loss: 1.320873, epe: 0.069
+Training epoch 81 out of 300
+Training: loss: 2.460696, epe: 0.140
+Validation: loss: 1.326726, epe: 0.069
+Training epoch 82 out of 300
+Training: loss: 2.441986, epe: 0.138
+Validation: loss: 1.249737, epe: 0.064
+Training epoch 83 out of 300
+Training: loss: 2.409506, epe: 0.135
+Validation: loss: 1.222679, epe: 0.062
+Training epoch 84 out of 300
+Training: loss: 2.375600, epe: 0.133
+Validation: loss: 1.203416, epe: 0.061
+Training epoch 85 out of 300
+Training: loss: 2.349681, epe: 0.130
+Validation: loss: 1.137010, epe: 0.057
+Training epoch 86 out of 300
+Training: loss: 2.324132, epe: 0.127
+Validation: loss: 1.164052, epe: 0.057
+Training epoch 87 out of 300
+Training: loss: 2.273233, epe: 0.124
+Validation: loss: 1.129191, epe: 0.056
+Training epoch 88 out of 300
+Training: loss: 2.268956, epe: 0.123
+Validation: loss: 1.084426, epe: 0.053
+Training epoch 89 out of 300
+Training: loss: 2.224663, epe: 0.119
+Validation: loss: 1.085267, epe: 0.053
+Training epoch 90 out of 300
+Training: loss: 2.189206, epe: 0.116
+Validation: loss: 1.048693, epe: 0.050
+Training epoch 91 out of 300
+Training: loss: 2.181642, epe: 0.115
+Validation: loss: 1.007021, epe: 0.048
+Training epoch 92 out of 300
+Training: loss: 2.145063, epe: 0.112
+Validation: loss: 0.990202, epe: 0.047
+Training epoch 93 out of 300
+Training: loss: 2.121981, epe: 0.110
+Validation: loss: 0.987488, epe: 0.046
+Training epoch 94 out of 300
+Training: loss: 2.101713, epe: 0.108
+Validation: loss: 0.960992, epe: 0.045
+Training epoch 95 out of 300
+Training: loss: 2.077706, epe: 0.106
+Validation: loss: 0.890085, epe: 0.041
+Training epoch 96 out of 300
+Training: loss: 2.057305, epe: 0.105
+Validation: loss: 0.890078, epe: 0.040
+Training epoch 97 out of 300
+Training: loss: 2.035584, epe: 0.103
+Validation: loss: 0.863869, epe: 0.039
+Training epoch 98 out of 300
+Training: loss: 2.000348, epe: 0.100
+Validation: loss: 0.873202, epe: 0.039
+Training epoch 99 out of 300
+Training: loss: 1.994650, epe: 0.099
+Validation: loss: 0.852414, epe: 0.037
+Training epoch 100 out of 300
+Training: loss: 1.976823, epe: 0.097
+Validation: loss: 0.808845, epe: 0.034
+Training epoch 101 out of 300
+Training: loss: 1.945799, epe: 0.095
+Validation: loss: 0.794200, epe: 0.033
+Training epoch 102 out of 300
+Training: loss: 1.941772, epe: 0.094
+Validation: loss: 0.792058, epe: 0.033
+Training epoch 103 out of 300
+Training: loss: 1.907597, epe: 0.092
+Validation: loss: 0.757584, epe: 0.031
+Training epoch 104 out of 300
+Training: loss: 1.902646, epe: 0.091
+Validation: loss: 0.736520, epe: 0.029
+Training epoch 105 out of 300
+Training: loss: 1.881516, epe: 0.090
+Validation: loss: 0.725945, epe: 0.028
+Training epoch 106 out of 300
+Training: loss: 1.865876, epe: 0.088
+Validation: loss: 0.703024, epe: 0.027
+Training epoch 107 out of 300
+Training: loss: 1.862300, epe: 0.087
+Validation: loss: 0.711852, epe: 0.027
+Training epoch 108 out of 300
+Training: loss: 1.846149, epe: 0.086
+Validation: loss: 0.716777, epe: 0.027
+Training epoch 109 out of 300
+Training: loss: 1.811385, epe: 0.083
+Validation: loss: 0.683038, epe: 0.025
+Training epoch 110 out of 300
+Training: loss: 1.797813, epe: 0.082
+Validation: loss: 0.688307, epe: 0.025
+Training epoch 111 out of 300
+Training: loss: 1.770015, epe: 0.080
+Validation: loss: 0.651803, epe: 0.023
+Training epoch 112 out of 300
+Training: loss: 1.784277, epe: 0.080
+Validation: loss: 0.653101, epe: 0.023
+Training epoch 113 out of 300
+Training: loss: 1.746360, epe: 0.078
+Validation: loss: 0.638909, epe: 0.022
+Training epoch 114 out of 300
+Training: loss: 1.741780, epe: 0.077
+Validation: loss: 0.639508, epe: 0.021
+Training epoch 115 out of 300
+Training: loss: 1.726182, epe: 0.076
+Validation: loss: 0.617728, epe: 0.020
+Training epoch 116 out of 300
+Training: loss: 1.709028, epe: 0.074
+Validation: loss: 0.614489, epe: 0.020
+Training epoch 117 out of 300
+Training: loss: 1.694743, epe: 0.073
+Validation: loss: 0.624525, epe: 0.021
+Training epoch 118 out of 300
+Training: loss: 1.701631, epe: 0.073
+Validation: loss: 0.611177, epe: 0.019
+Training epoch 119 out of 300
+Training: loss: 1.667819, epe: 0.071
+Validation: loss: 0.589326, epe: 0.017
+Training epoch 120 out of 300
+Training: loss: 1.650527, epe: 0.070
+Validation: loss: 0.594045, epe: 0.018
+Training epoch 121 out of 300
+Training: loss: 1.650996, epe: 0.069
+Validation: loss: 0.583347, epe: 0.017
+Training epoch 122 out of 300
+Training: loss: 1.631772, epe: 0.068
+Validation: loss: 0.576352, epe: 0.017
+Training epoch 123 out of 300
+Training: loss: 1.627848, epe: 0.067
+Validation: loss: 0.581890, epe: 0.017
+Training epoch 124 out of 300
+Training: loss: 1.603267, epe: 0.066
+Validation: loss: 0.583974, epe: 0.017
+Training epoch 125 out of 300
+Training: loss: 1.600252, epe: 0.065
+Validation: loss: 0.573780, epe: 0.017
+Training epoch 126 out of 300
+Training: loss: 1.601199, epe: 0.065
+Validation: loss: 0.567964, epe: 0.016
+Training epoch 127 out of 300
+Training: loss: 1.574709, epe: 0.063
+Validation: loss: 0.568966, epe: 0.015
+Training epoch 128 out of 300
+Training: loss: 1.569027, epe: 0.063
+Validation: loss: 0.556810, epe: 0.015
+Training epoch 129 out of 300
+Training: loss: 1.565950, epe: 0.062
+Validation: loss: 0.573195, epe: 0.016
+Training epoch 130 out of 300
+Training: loss: 1.536795, epe: 0.061
+Validation: loss: 0.548537, epe: 0.014
+Training epoch 131 out of 300
+Training: loss: 1.530463, epe: 0.060
+Validation: loss: 0.567236, epe: 0.016
+Training epoch 132 out of 300
+Training: loss: 1.535110, epe: 0.060
+Validation: loss: 0.551093, epe: 0.014
+Training epoch 133 out of 300
+Training: loss: 1.533056, epe: 0.059
+Validation: loss: 0.541243, epe: 0.014
+Training epoch 134 out of 300
+Training: loss: 1.519417, epe: 0.058
+Validation: loss: 0.535238, epe: 0.013
+Training epoch 135 out of 300
+Training: loss: 1.487263, epe: 0.057
+Validation: loss: 0.533396, epe: 0.013
+Training epoch 136 out of 300
+Training: loss: 1.486183, epe: 0.056
+Validation: loss: 0.538972, epe: 0.013
+Training epoch 137 out of 300
+Training: loss: 1.493169, epe: 0.056
+Validation: loss: 0.546683, epe: 0.014
+Training epoch 138 out of 300
+Training: loss: 1.505450, epe: 0.057
+Validation: loss: 0.547356, epe: 0.014
+Training epoch 139 out of 300
+Training: loss: 1.477630, epe: 0.055
+Validation: loss: 0.531308, epe: 0.013
+Training epoch 140 out of 300
+Training: loss: 1.477221, epe: 0.055
+Validation: loss: 0.522673, epe: 0.012
+Training epoch 141 out of 300
+Training: loss: 1.485195, epe: 0.055
+Validation: loss: 0.523280, epe: 0.012
+Training epoch 142 out of 300
+Training: loss: 1.463645, epe: 0.054
+Validation: loss: 0.528207, epe: 0.012
+Training epoch 143 out of 300
+Training: loss: 1.463852, epe: 0.053
+Validation: loss: 0.529305, epe: 0.012
+Training epoch 144 out of 300
+Training: loss: 1.446111, epe: 0.052
+Validation: loss: 0.511514, epe: 0.011
+Training epoch 145 out of 300
+Training: loss: 1.453096, epe: 0.052
+Validation: loss: 0.512271, epe: 0.012
+Training epoch 146 out of 300
+Training: loss: 1.436913, epe: 0.052
+Validation: loss: 0.513716, epe: 0.011
+Training epoch 147 out of 300
+Training: loss: 1.440339, epe: 0.051
+Validation: loss: 0.517412, epe: 0.011
+Training epoch 148 out of 300
+Training: loss: 1.442408, epe: 0.051
+Validation: loss: 0.518129, epe: 0.011
+Training epoch 149 out of 300
+Training: loss: 1.412199, epe: 0.050
+Validation: loss: 0.521861, epe: 0.011
+Training epoch 150 out of 300
+Training: loss: 1.430291, epe: 0.051
+Validation: loss: 0.513254, epe: 0.011
+Training epoch 151 out of 300
+Training: loss: 1.423849, epe: 0.050
+Validation: loss: 0.517875, epe: 0.011
+Training epoch 152 out of 300
+Training: loss: 1.411108, epe: 0.049
+Validation: loss: 0.515627, epe: 0.011
+Training epoch 153 out of 300
+Training: loss: 1.424591, epe: 0.049
+Validation: loss: 0.507289, epe: 0.011
+Training epoch 154 out of 300
+Training: loss: 1.385548, epe: 0.048
+Validation: loss: 0.511458, epe: 0.010
+Training epoch 155 out of 300
+Training: loss: 1.407689, epe: 0.048
+Validation: loss: 0.511943, epe: 0.011
+Training epoch 156 out of 300
+Training: loss: 1.400091, epe: 0.048
+Validation: loss: 0.507341, epe: 0.011
+Training epoch 157 out of 300
+Training: loss: 1.390349, epe: 0.047
+Validation: loss: 0.511922, epe: 0.011
+Training epoch 158 out of 300
+Training: loss: 1.398578, epe: 0.047
+Validation: loss: 0.512282, epe: 0.010
+Training epoch 159 out of 300
+Training: loss: 1.380989, epe: 0.046
+Validation: loss: 0.513208, epe: 0.010
+Training epoch 160 out of 300
+Training: loss: 1.382738, epe: 0.046
+Validation: loss: 0.497113, epe: 0.010
+Training epoch 161 out of 300
+Training: loss: 1.380153, epe: 0.046
+Validation: loss: 0.505445, epe: 0.010
+Training epoch 162 out of 300
+Training: loss: 1.383561, epe: 0.046
+Validation: loss: 0.500200, epe: 0.010
+Training epoch 163 out of 300
+Training: loss: 1.350693, epe: 0.045
+Validation: loss: 0.500713, epe: 0.009
+Training epoch 164 out of 300
+Training: loss: 1.378860, epe: 0.046
+Validation: loss: 0.504543, epe: 0.010
+Training epoch 165 out of 300
+Training: loss: 1.354899, epe: 0.045
+Validation: loss: 0.502711, epe: 0.010
+Training epoch 166 out of 300
+Training: loss: 1.375888, epe: 0.045
+Validation: loss: 0.494962, epe: 0.009
+Training epoch 167 out of 300
+Training: loss: 1.369799, epe: 0.045
+Validation: loss: 0.500529, epe: 0.009
+Training epoch 168 out of 300
+Training: loss: 1.358178, epe: 0.044
+Validation: loss: 0.503039, epe: 0.009
+Training epoch 169 out of 300
+Training: loss: 1.352804, epe: 0.044
+Validation: loss: 0.504105, epe: 0.009
+Training epoch 170 out of 300
+Training: loss: 1.364491, epe: 0.044
+Validation: loss: 0.505721, epe: 0.010
+Training epoch 171 out of 300
+Training: loss: 1.357879, epe: 0.044
+Validation: loss: 0.499465, epe: 0.009
+Training epoch 172 out of 300
+Training: loss: 1.339816, epe: 0.043
+Validation: loss: 0.499406, epe: 0.009
+Training epoch 173 out of 300
+Training: loss: 1.345274, epe: 0.043
+Validation: loss: 0.498825, epe: 0.009
+Training epoch 174 out of 300
+Training: loss: 1.336284, epe: 0.043
+Validation: loss: 0.486994, epe: 0.009
+Training epoch 175 out of 300
+Training: loss: 1.347959, epe: 0.043
+Validation: loss: 0.502848, epe: 0.009
+Training epoch 176 out of 300
+Training: loss: 1.344927, epe: 0.043
+Validation: loss: 0.504891, epe: 0.009
+Training epoch 177 out of 300
+Training: loss: 1.345459, epe: 0.043
+Validation: loss: 0.496620, epe: 0.009
+Training epoch 178 out of 300
+Training: loss: 1.342080, epe: 0.042
+Validation: loss: 0.517780, epe: 0.010
+Training epoch 179 out of 300
+Training: loss: 1.335185, epe: 0.042
+Validation: loss: 0.507788, epe: 0.009
+Training epoch 180 out of 300
+Training: loss: 1.343688, epe: 0.042
+Validation: loss: 0.505466, epe: 0.009
+Training epoch 181 out of 300
+Training: loss: 1.326452, epe: 0.041
+Validation: loss: 0.489915, epe: 0.009
+Training epoch 182 out of 300
+Training: loss: 1.340626, epe: 0.042
+Validation: loss: 0.488710, epe: 0.008
+Training epoch 183 out of 300
+Training: loss: 1.328054, epe: 0.041
+Validation: loss: 0.502129, epe: 0.009
+Training epoch 184 out of 300
+Training: loss: 1.318839, epe: 0.041
+Validation: loss: 0.483036, epe: 0.008
+Training epoch 185 out of 300
+Training: loss: 1.315309, epe: 0.041
+Validation: loss: 0.492205, epe: 0.009
+Training epoch 186 out of 300
+Training: loss: 1.332325, epe: 0.041
+Validation: loss: 0.481461, epe: 0.008
+Training epoch 187 out of 300
+Training: loss: 1.313662, epe: 0.040
+Validation: loss: 0.505263, epe: 0.009
+Training epoch 188 out of 300
+Training: loss: 1.323715, epe: 0.040
+Validation: loss: 0.486757, epe: 0.008
+Training epoch 189 out of 300
+Training: loss: 1.308484, epe: 0.040
+Validation: loss: 0.489458, epe: 0.008
+Training epoch 190 out of 300
+Training: loss: 1.320559, epe: 0.040
+Validation: loss: 0.506808, epe: 0.008
+Training epoch 191 out of 300
+Training: loss: 1.311455, epe: 0.040
+Validation: loss: 0.494187, epe: 0.008
+Training epoch 192 out of 300
+Training: loss: 1.305225, epe: 0.039
+Validation: loss: 0.487348, epe: 0.008
+Training epoch 193 out of 300
+Training: loss: 1.317862, epe: 0.040
+Validation: loss: 0.490222, epe: 0.008
+Training epoch 194 out of 300
+Training: loss: 1.309602, epe: 0.039
+Validation: loss: 0.486934, epe: 0.008
+Training epoch 195 out of 300
+Training: loss: 1.288817, epe: 0.039
+Validation: loss: 0.484407, epe: 0.008
+Training epoch 196 out of 300
+Training: loss: 1.288973, epe: 0.039
+Validation: loss: 0.481189, epe: 0.008
+Training epoch 197 out of 300
+Training: loss: 1.292018, epe: 0.039
+Validation: loss: 0.483872, epe: 0.007
+Training epoch 198 out of 300
+Training: loss: 1.290802, epe: 0.038
+Validation: loss: 0.480903, epe: 0.008
+Training epoch 199 out of 300
+Training: loss: 1.297575, epe: 0.038
+Validation: loss: 0.487511, epe: 0.008
+Training epoch 200 out of 300
+Training: loss: 1.298484, epe: 0.038
+Validation: loss: 0.491164, epe: 0.008
+Training epoch 201 out of 300
+Training: loss: 1.285539, epe: 0.038
+Validation: loss: 0.481228, epe: 0.008
+Training epoch 202 out of 300
+Training: loss: 1.291568, epe: 0.038
+Validation: loss: 0.494062, epe: 0.008
+Training epoch 203 out of 300
+Training: loss: 1.286472, epe: 0.038
+Validation: loss: 0.477042, epe: 0.007
+Training epoch 204 out of 300
+Training: loss: 1.274390, epe: 0.037
+Validation: loss: 0.478824, epe: 0.007
+Training epoch 205 out of 300
+Training: loss: 1.270932, epe: 0.037
+Validation: loss: 0.472451, epe: 0.007
+Training epoch 206 out of 300
+Training: loss: 1.276126, epe: 0.037
+Validation: loss: 0.480776, epe: 0.008
+Training epoch 207 out of 300
+Training: loss: 1.281327, epe: 0.037
+Validation: loss: 0.470107, epe: 0.007
+Training epoch 208 out of 300
+Training: loss: 1.275118, epe: 0.037
+Validation: loss: 0.483544, epe: 0.007
+Training epoch 209 out of 300
+Training: loss: 1.263951, epe: 0.036
+Validation: loss: 0.474635, epe: 0.007
+Training epoch 210 out of 300
+Training: loss: 1.285351, epe: 0.037
+Validation: loss: 0.469888, epe: 0.007
+Training epoch 211 out of 300
+Training: loss: 1.276386, epe: 0.037
+Validation: loss: 0.482906, epe: 0.008
+Training epoch 212 out of 300
+Training: loss: 1.263578, epe: 0.036
+Validation: loss: 0.476377, epe: 0.007
+Training epoch 213 out of 300
+Training: loss: 1.274701, epe: 0.037
+Validation: loss: 0.477532, epe: 0.007
+Training epoch 214 out of 300
+Training: loss: 1.265682, epe: 0.036
+Validation: loss: 0.476824, epe: 0.007
+Training epoch 215 out of 300
+Training: loss: 1.265339, epe: 0.036
+Validation: loss: 0.480364, epe: 0.008
+Training epoch 216 out of 300
+Training: loss: 1.275785, epe: 0.036
+Validation: loss: 0.501159, epe: 0.008
+Training epoch 217 out of 300
+Training: loss: 1.283236, epe: 0.037
+Validation: loss: 0.482124, epe: 0.007
+Training epoch 218 out of 300
+Training: loss: 1.257180, epe: 0.036
+Validation: loss: 0.500252, epe: 0.008
+Training epoch 219 out of 300
+Training: loss: 1.267683, epe: 0.036
+Validation: loss: 0.469509, epe: 0.007
+Training epoch 220 out of 300
+Training: loss: 1.275550, epe: 0.036
+Validation: loss: 0.477134, epe: 0.007
+Training epoch 221 out of 300
+Training: loss: 1.256370, epe: 0.036
+Validation: loss: 0.476274, epe: 0.007
+Training epoch 222 out of 300
+Training: loss: 1.266646, epe: 0.036
+Validation: loss: 0.479404, epe: 0.007
+Training epoch 223 out of 300
+Training: loss: 1.268374, epe: 0.036
+Validation: loss: 0.480745, epe: 0.007
+Training epoch 224 out of 300
+Training: loss: 1.254934, epe: 0.035
+Validation: loss: 0.477963, epe: 0.007
+Training epoch 225 out of 300
+Training: loss: 1.249825, epe: 0.035
+Validation: loss: 0.474005, epe: 0.006
+Training epoch 226 out of 300
+Training: loss: 1.230260, epe: 0.034
+Validation: loss: 0.474950, epe: 0.007
+Training epoch 227 out of 300
+Training: loss: 1.249238, epe: 0.034
+Validation: loss: 0.476951, epe: 0.007
+Training epoch 228 out of 300
+Training: loss: 1.259459, epe: 0.035
+Validation: loss: 0.480661, epe: 0.007
+Training epoch 229 out of 300
+Training: loss: 1.251493, epe: 0.034
+Validation: loss: 0.501925, epe: 0.008
+Training epoch 230 out of 300
+Training: loss: 1.251169, epe: 0.035
+Validation: loss: 0.487844, epe: 0.008
+Training epoch 231 out of 300
+Training: loss: 1.246336, epe: 0.034
+Validation: loss: 0.480867, epe: 0.007
+Training epoch 232 out of 300
+Training: loss: 1.264210, epe: 0.035
+Validation: loss: 0.478429, epe: 0.007
+Training epoch 233 out of 300
+Training: loss: 1.258068, epe: 0.035
+Validation: loss: 0.481411, epe: 0.007
+Training epoch 234 out of 300
+Training: loss: 1.249276, epe: 0.034
+Validation: loss: 0.476171, epe: 0.007
+Training epoch 235 out of 300
+Training: loss: 1.243977, epe: 0.034
+Validation: loss: 0.470468, epe: 0.006
+Training epoch 236 out of 300
+Training: loss: 1.244982, epe: 0.034
+Validation: loss: 0.466238, epe: 0.006
+Training epoch 237 out of 300
+Training: loss: 1.244413, epe: 0.034
+Validation: loss: 0.475687, epe: 0.006
+Training epoch 238 out of 300
+Training: loss: 1.228941, epe: 0.033
+Validation: loss: 0.469799, epe: 0.006
+Training epoch 239 out of 300
+Training: loss: 1.246551, epe: 0.034
+Validation: loss: 0.477418, epe: 0.007
+Training epoch 240 out of 300
+Training: loss: 1.257863, epe: 0.034
+Validation: loss: 0.470497, epe: 0.006
+Training epoch 241 out of 300
+Training: loss: 1.228782, epe: 0.033
+Validation: loss: 0.485596, epe: 0.007
+Training epoch 242 out of 300
+Training: loss: 1.242892, epe: 0.034
+Validation: loss: 0.474510, epe: 0.007
+Training epoch 243 out of 300
+Training: loss: 1.236778, epe: 0.033
+Validation: loss: 0.473966, epe: 0.007
+Training epoch 244 out of 300
+Training: loss: 1.252174, epe: 0.034
+Validation: loss: 0.492737, epe: 0.007
+Training epoch 245 out of 300
+Training: loss: 1.231965, epe: 0.033
+Validation: loss: 0.472502, epe: 0.006
+Training epoch 246 out of 300
+Training: loss: 1.237651, epe: 0.033
+Validation: loss: 0.469276, epe: 0.007
+Training epoch 247 out of 300
+Training: loss: 1.227916, epe: 0.033
+Validation: loss: 0.476029, epe: 0.007
+Training epoch 248 out of 300
+Training: loss: 1.233799, epe: 0.033
+Validation: loss: 0.463418, epe: 0.006
+Training epoch 249 out of 300
+Training: loss: 1.224597, epe: 0.033
+Validation: loss: 0.476344, epe: 0.007
+Training epoch 250 out of 300
+Training: loss: 1.225581, epe: 0.033
+Validation: loss: 0.488225, epe: 0.007
+Training epoch 251 out of 300
+Training: loss: 1.247352, epe: 0.033
+Validation: loss: 0.490155, epe: 0.007
+Training epoch 252 out of 300
+Training: loss: 1.228342, epe: 0.032
+Validation: loss: 0.497679, epe: 0.007
+Training epoch 253 out of 300
+Training: loss: 1.226686, epe: 0.032
+Validation: loss: 0.464016, epe: 0.006
+Training epoch 254 out of 300
+Training: loss: 1.222699, epe: 0.032
+Validation: loss: 0.469115, epe: 0.006
+Training epoch 255 out of 300
+Training: loss: 1.247690, epe: 0.033
+Validation: loss: 0.474701, epe: 0.006
+Training epoch 256 out of 300
+Training: loss: 1.245118, epe: 0.033
+Validation: loss: 0.465154, epe: 0.006
+Training epoch 257 out of 300
+Training: loss: 1.222328, epe: 0.032
+Validation: loss: 0.459692, epe: 0.006
+Training epoch 258 out of 300
+Training: loss: 1.235251, epe: 0.033
+Validation: loss: 0.469278, epe: 0.006
+Training epoch 259 out of 300
+Training: loss: 1.220418, epe: 0.032
+Validation: loss: 0.470207, epe: 0.006
+Training epoch 260 out of 300
+Training: loss: 1.237642, epe: 0.032
+Validation: loss: 0.469779, epe: 0.006
+Training epoch 261 out of 300
+Training: loss: 1.221642, epe: 0.032
+Validation: loss: 0.467178, epe: 0.006
+Training epoch 262 out of 300
+Training: loss: 1.226824, epe: 0.032
+Validation: loss: 0.465377, epe: 0.006
+Training epoch 263 out of 300
+Training: loss: 1.217331, epe: 0.032
+Validation: loss: 0.471519, epe: 0.006
+Training epoch 264 out of 300
+Training: loss: 1.218650, epe: 0.032
+Validation: loss: 0.473116, epe: 0.006
+Training epoch 265 out of 300
+Training: loss: 1.204990, epe: 0.031
+Validation: loss: 0.471051, epe: 0.006
+Training epoch 266 out of 300
+Training: loss: 1.211104, epe: 0.031
+Validation: loss: 0.461401, epe: 0.006
+Training epoch 267 out of 300
+Training: loss: 1.237035, epe: 0.032
+Validation: loss: 0.473888, epe: 0.006
+Training epoch 268 out of 300
+Training: loss: 1.209663, epe: 0.031
+Validation: loss: 0.462594, epe: 0.006
+Training epoch 269 out of 300
+Training: loss: 1.217340, epe: 0.031
+Validation: loss: 0.469440, epe: 0.006
+Training epoch 270 out of 300
+Training: loss: 1.215774, epe: 0.031
+Validation: loss: 0.462742, epe: 0.006
+Training epoch 271 out of 300
+Training: loss: 1.218177, epe: 0.031
+Validation: loss: 0.469415, epe: 0.006
+Training epoch 272 out of 300
+Training: loss: 1.207675, epe: 0.031
+Validation: loss: 0.469099, epe: 0.006
+Training epoch 273 out of 300
+Training: loss: 1.221215, epe: 0.031
+Validation: loss: 0.457116, epe: 0.006
+Training epoch 274 out of 300
+Training: loss: 1.236305, epe: 0.032
+Validation: loss: 0.469707, epe: 0.006
+Training epoch 275 out of 300
+Training: loss: 1.209090, epe: 0.031
+Validation: loss: 0.462405, epe: 0.006
+Training epoch 276 out of 300
+Training: loss: 1.223320, epe: 0.031
+Validation: loss: 0.462159, epe: 0.006
+Training epoch 277 out of 300
+Training: loss: 1.214185, epe: 0.031
+Validation: loss: 0.462085, epe: 0.006
+Training epoch 278 out of 300
+Training: loss: 1.215123, epe: 0.031
+Validation: loss: 0.450286, epe: 0.005
+Training epoch 279 out of 300
+Training: loss: 1.223078, epe: 0.031
+Validation: loss: 0.460152, epe: 0.006
+Training epoch 280 out of 300
+Training: loss: 1.196654, epe: 0.030
+Validation: loss: 0.470502, epe: 0.006
+Training epoch 281 out of 300
+Training: loss: 1.215228, epe: 0.031
+Validation: loss: 0.458719, epe: 0.006
+Training epoch 282 out of 300
+Training: loss: 1.214409, epe: 0.031
+Validation: loss: 0.465214, epe: 0.006
+Training epoch 283 out of 300
+Training: loss: 1.221489, epe: 0.031
+Validation: loss: 0.464215, epe: 0.006
+Training epoch 284 out of 300
+Training: loss: 1.196909, epe: 0.030
+Validation: loss: 0.461257, epe: 0.005
+Training epoch 285 out of 300
+Training: loss: 1.206711, epe: 0.031
+Validation: loss: 0.464053, epe: 0.006
+Training epoch 286 out of 300
+Training: loss: 1.205952, epe: 0.030
+Validation: loss: 0.461667, epe: 0.006
+Training epoch 287 out of 300
+Training: loss: 1.199388, epe: 0.030
+Validation: loss: 0.461512, epe: 0.005
+Training epoch 288 out of 300
+Training: loss: 1.203380, epe: 0.030
+Validation: loss: 0.463126, epe: 0.006
+Training epoch 289 out of 300
+Training: loss: 1.227874, epe: 0.032
+Validation: loss: 0.465618, epe: 0.006
+Training epoch 290 out of 300
+Training: loss: 1.222245, epe: 0.031
+Validation: loss: 0.461861, epe: 0.006
+Training epoch 291 out of 300
+Training: loss: 1.209837, epe: 0.031
+Validation: loss: 0.467367, epe: 0.006
+Training epoch 292 out of 300
+Training: loss: 1.199693, epe: 0.030
+Validation: loss: 0.459050, epe: 0.005
+Training epoch 293 out of 300
+Training: loss: 1.194389, epe: 0.030
+Validation: loss: 0.454139, epe: 0.006
+Training epoch 294 out of 300
+Training: loss: 1.181080, epe: 0.029
+Validation: loss: 0.470857, epe: 0.006
+Training epoch 295 out of 300
+Training: loss: 1.202696, epe: 0.030
+Validation: loss: 0.462601, epe: 0.006
+Training epoch 296 out of 300
+Training: loss: 1.209305, epe: 0.030
+Validation: loss: 0.464476, epe: 0.006
+Training epoch 297 out of 300
+Training: loss: 1.199171, epe: 0.030
+Validation: loss: 0.458686, epe: 0.005
+Training epoch 298 out of 300
+Training: loss: 1.193544, epe: 0.030
+Validation: loss: 0.473246, epe: 0.006
+Training epoch 299 out of 300
+Training: loss: 1.207726, epe: 0.030
+Validation: loss: 0.467707, epe: 0.006
+Training epoch 300 out of 300
+Training: loss: 1.208169, epe: 0.030
+Validation: loss: 0.463528, epe: 0.005
+Finished Training.
