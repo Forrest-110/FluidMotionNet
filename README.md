@@ -57,11 +57,17 @@ cd scripts
 sh demo.sh
 ```
 
+The demo will train and evaluate on the demo data.
+
 ## Expected output
 To provide reproduction ability, we set every random seed to 42. So the following result should be presented if your follow the instructions above.
 
+```
+EPE: 1.3995, NEPE: 12.8406, ACC3DS: 0.0039, ACC3DR: 0.0040, Outlier: 0.9961
+```
+
 ## Expected run time for demo
-On a normal desktop computer
+About 3 minutes on a normal desktop computer.
 
 # Required Data
 To evaluate/train DECROB, you will need to download the required datasets [FluidFlow3D-family](https://github.com/JiamingSkGrey/FluidFlow3D-family). We also generate a new dataset FluidFlow3D-cases using FluidFlow3D-norm in FluidFlow3D-family, and we provide it [here](https://drive.google.com/file/d/1JWGYtn9fADccVere9oC_UnueaFEG-t_j/view?usp=drive_link).
@@ -120,3 +126,40 @@ python evaluate.py --dataset_name FluidFlow --mode test --nb_points 2048 \
 
 ```
 
+# Instruction For Use
+We provide checkpoints which are trained with 13621 samples, 1300 samples and 130 samples. All of them are put under 'ckpt' direction. To use our code on your own data or reproduce our results, you can **train or evaluate** on your custom data, following the instructions above. Or you can simply use our trained checkpoint for evaluation.
+
+## How to run the software on your data
+Custom dataset should follow our dataset structure or you could write a dataloader yourself. Follow the examples at 'datasets/fluidflow.py'.
+
+## Reproduction instructions
+The following script reproduces our main result.
+
+```
+python evaluate.py --dataset_name FluidFlow --path2data /path/to/FluidFlow3D-family/FluidFlow3D-norm --mode test --nb_points 2048 \
+    --path2ckpt ../ckpt/model_all.tar --backward_dist_weight 0.0\
+    --use_test_time_refinement 1 --test_time_num_step 1000 --test_time_update_rate 0.01 --use_smooth_flow 0 --nb_neigh_smooth_flow 32 --smooth_flow_loss_weight 1.0 \
+    --use_div_flow 0 --nb_neigh_div_flow 1 --div_flow_loss_weight 0.0001 \
+    --log_fname modelall.txt   --test_time_verbose 0 --save_metrics 0 --save_pc_res 0 
+
+python evaluate.py --dataset_name FluidFlow --path2data /path/to/FluidFlow3D-family/FluidFlow3D-norm --mode test --nb_points 2048 \
+    --path2ckpt ../ckpt/model_1300.tar --backward_dist_weight 0.0\
+    --use_test_time_refinement 1 --test_time_num_step 1000 --test_time_update_rate 0.01 --use_smooth_flow 0 --nb_neigh_smooth_flow 32 --smooth_flow_loss_weight 1.0 \
+    --use_div_flow 0 --nb_neigh_div_flow 1 --div_flow_loss_weight 0.0001 \
+    --log_fname modelall.txt   --test_time_verbose 0 --save_metrics 0 --save_pc_res 0 
+
+python evaluate.py --dataset_name FluidFlow --path2data /path/to/FluidFlow3D-family/FluidFlow3D-norm --mode test --nb_points 2048 \
+    --path2ckpt ../ckpt/model_130.tar --backward_dist_weight 0.0\
+    --use_test_time_refinement 1 --test_time_num_step 1000 --test_time_update_rate 0.01 --use_smooth_flow 0 --nb_neigh_smooth_flow 32 --smooth_flow_loss_weight 1.0 \
+    --use_div_flow 0 --nb_neigh_div_flow 1 --div_flow_loss_weight 0.0001 \
+    --log_fname modelall.txt   --test_time_verbose 0 --save_metrics 0 --save_pc_res 0 
+```
+
+The Output should be
+```
+EPE: 0.0046, NEPE: 0.0188, ACC3DS: 0.9869, ACC3DR: 0.9877, Outlier: 0.0131
+
+EPE: 0.0064, NEPE: 0.0251, ACC3DS: 0.9827, ACC3DR: 0.9837, Outlier: 0.0174
+
+EPE: 0.0085, NEPE: 0.0317, ACC3DS: 0.9761, ACC3DR: 0.9776, Outlier: 0.0240
+```
