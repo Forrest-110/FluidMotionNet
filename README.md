@@ -1,7 +1,23 @@
 # DECROB
 Code for Test-time Self Supervision for "*Test-time Self Supervision for **D**ata **E**fficient and **C**ross-domain **Rob**ust Particle Tracking in Turbulent Flow*"
 
-# Installation
+# System Requirements
+- operating system: tested on Ubuntu 22.04
+- software dependencies:
+  - Python 3.8.10
+  - CUDA 11.3
+  - cudNN 8.3.0
+- Hardware: tested on a single NVIDIA RTX4070ti, with RAM 32G
+- Python dependencies:
+  - PyTorch 1.12.0
+  - tensorboard 2.4.1
+  - tqdm 4.63.1
+  - scipy
+  - imageio
+  - torch-scatter 2.1.1
+  - ChamferDistancePytorch
+
+# Installation Guide
 The code has been tested with Python 3.8.10, PyTorch 1.12.0, CUDA 11.3, and cuDNN 8.3.0 on Ubuntu 22.04.
 
 Clone this repository:
@@ -29,6 +45,22 @@ sh compile_chamfer_distance_op.sh
 
 The compilation results should be created under `auxiliary/ChamferDistancePytorch/chamfer3D/build` folder.
 
+The typical install time on a normal desktop computer should be no more than half an hour.
+
+# Demo
+
+## Instructions to run on data
+We provide a small train and test dataset at the folder 'demo'. To run on demo data, follow the instructions below.
+```
+cd scripts
+sh demo.sh
+```
+
+## Expected output
+To provide reproduction ability, we set every random seed to 42. So the following result should be presented if your follow the instructions above.
+
+## Expected run time for demo
+On a normal desktop computer
 
 # Required Data
 To evaluate/train DECROB, you will need to download the required datasets [FluidFlow3D-family](https://github.com/JiamingSkGrey/FluidFlow3D-family). We also generate a new dataset FluidFlow3D-cases using FluidFlow3D-norm in FluidFlow3D-family, and we provide it [here](https://drive.google.com/file/d/1JWGYtn9fADccVere9oC_UnueaFEG-t_j/view?usp=drive_link).

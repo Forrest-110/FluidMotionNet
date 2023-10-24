@@ -343,7 +343,7 @@ def my_main(args):
 
     else:
         # raise ValueError("Unknown dataset " + args.dataset_name)
-        path2data = os.path.join("/data/Sceneflow/FluidFlow3D-family",'FluidFlow3D-norm')
+        path2data = args.path2data
         from datasets.fluidflow import FluidFlowDataset,FluidFlowDataset_GOTversion
         dataset = FluidFlowDataset_GOTversion(root_dir=path2data, nb_points=args.nb_points, all_points=args.all_points, mode=args.mode, nb_examples=-1)
         
@@ -430,6 +430,7 @@ if __name__ == "__main__":
     parser.add_argument("--res_folder", type=str, default="pc_res", help="Folder name for saving results.")
     parser.add_argument("--save_metrics", type=int, default=0, help="1: save evaluation metrics results, 0: do not save evaluation metrics results [default: 0]")
     parser.add_argument("--metrics_fname", type=str, default="metrics_results.npz", help="Name for metrics file.")
+    parser.add_argument("--path2data", type=str, default="/data/Sceneflow/FluidFlow3D-family/FluidFlow3D-norm", help="Path to data")
     args = parser.parse_args()
 
     # Check arguments

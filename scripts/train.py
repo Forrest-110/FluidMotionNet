@@ -359,7 +359,7 @@ def my_main(args):
 
     else:
         # raise ValueError("Invalid dataset name: " + args.dataset_name)
-        path2data = os.path.join("/data/Sceneflow/FluidFlow3D-family",'FluidFlow3D-norm')
+        path2data = args.path2data
         from datasets.fluidflow import FluidFlowDataset,FluidFlowDataset_GOTversion
         train_dataset = FluidFlowDataset(root_dir=path2data, nb_points=args.nb_points, all_points=False, mode="train", nb_examples=args.nb_train_examples)
         val_dataset = FluidFlowDataset(root_dir=path2data, nb_points=args.nb_points, all_points=False, mode="val", nb_examples=args.nb_val_examples)
@@ -439,6 +439,7 @@ if __name__ == "__main__":
     parser.add_argument("--log_fname", type=str, default="log_train.txt", help="Evaluation log file name.")
     parser.add_argument("--save_model_epoch", type=int, default=1, help="Number of epochs difference for saving the model.")
     parser.add_argument("--add_model_suff", type=int, default=0, help="1: Add suffix to model name, 0: do not add suffix.")
+    parser.add_argument("--path2data", type=str, default="/data/Sceneflow/FluidFlow3D-family/FluidFlow3D-norm", help="Path to data")
     args = parser.parse_args()
 
     args.use_corr_conf = bool(args.use_corr_conf)
