@@ -1,5 +1,5 @@
 # DECROB
-Code for Test-time Self Supervision for "*Test-time Self Supervision for **D**ata **E**fficient and **C**ross-domain **Rob**ust Particle Tracking in Turbulent Flow*"
+Code for **Dual-frame Fluid Motion Estimation with Test-time Optimization and Zero-divergence Loss**
 
 # System Requirements
 - operating system: tested on Ubuntu 22.04
