@@ -1,5 +1,5 @@
-# DECROB
-Code for **Dual-frame Fluid Motion Estimation with Test-time Optimization and Zero-divergence Loss**
+# Overview
+Code for NeurIPS 2024 paper: **Dual-frame Fluid Motion Estimation with Test-time Optimization and Zero-divergence Loss**
 
 # System Requirements
 - operating system: tested on Ubuntu 22.04
